@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Lukáš Duka, software developer and master’s student at Masaryk University. Web applications and software development projects.">
+  <title>Lukáš Duka — Software developer</title>
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#projects">Skip to projects</a>
+  <header id="about">
+    <div class="masthead"><nav aria-label="Page navigation"><a href="#about">About</a><a href="#business-title">Client work</a><a href="#fridge-title">SmartFridge</a><a href="#ski-title">SkiLog</a></nav></div>
+    <div class="intro-layout about-intro">
+      <div><p class="intro-label">SOFTWARE DEVELOPER · BRNO</p><h1>Hi, I’m<br><span>Lukáš.</span></h1></div>
+      <div class="intro-note"><h2 class="about-heading">I develop software and web applications.</h2><p>I’m a junior software developer and a master’s student in Software Engineering at Masaryk University in Brno.</p><p>I enjoy taking an application from the initial requirements through implementation to deployment. Below are a few examples of my work.</p><a href="#projects">Explore my projects <span aria-hidden="true">↓</span></a></div>
+    </div>
+  </header>
+  <main id="projects">
+    <div class="work-heading"><h2>Projects</h2><p>Commercial, personal and university work</p></div>
+    <article class="business" aria-labelledby="business-title">
+      <div class="project-index">01 <span>Commercial project · Private application</span></div>
+      <h2 id="business-title">Business management</h2>
+      <p class="meta">Internal company application <span>TypeScript / Supabase / Vercel</span></p>
+      <div class="project-text"><div><h3>Context</h3><p>A custom web application for a commercial client, bringing client records, projects and financial workflows into one system.</p></div><div><h3>My role</h3><p>I manage the full development lifecycle: translating business requirements into the application architecture, implementing features, testing and deployment. The application includes cost calculations, pricing and invoicing workflows.</p></div></div>
+      <p class="private-note">Private application. Screenshots only; no public access.</p>
+      <div class="screenshots stacked landscape" aria-label="Business application screenshots">
+<figure><a href="assets/business-clients.png" data-gallery="business" data-landscape="true" data-caption="Business application — Client overview"><img src="assets/business-clients.png" alt="Client overview in the internal business application" loading="lazy"></a><figcaption>Client overview</figcaption></figure>
+<figure><a href="assets/business-project.png" data-gallery="business" data-landscape="true" data-caption="Business application — Project workflow and settlement"><img src="assets/business-project.png" alt="Project stages, settlement approval and financial summary" loading="lazy"></a><figcaption>Project workflow and settlement</figcaption></figure>
+<figure><a href="assets/business-pricing.png" data-gallery="business" data-landscape="true" data-caption="Business application — Price list"><img src="assets/business-pricing.png" alt="Versioned price list with grouped items" loading="lazy"></a><figcaption>Price list</figcaption></figure>
+</div></article>
+<article class="fridge" aria-labelledby="fridge-title">
+      <div class="project-index">02 <span>Personal project</span></div><h2 id="fridge-title">SmartFridge</h2>
+      <p class="meta">Shared food inventory <span>Web application</span></p>
+      <div class="project-text"><div><h3>Context</h3><p>Sharing a kitchen means keeping track of more than just what’s in the fridge. I built SmartFridge for a shared student apartment, where groceries belong to different people and can easily be forgotten.</p></div><div><h3>Implementation</h3><p>The app tracks products, ownership and expiry dates across the fridge, freezer and pantry. EAN barcode scanning helps with adding products, while a shopping list keeps the next grocery run organised.</p></div></div>
+      <p><a href="https://myfridge-five.vercel.app" target="_blank" rel="noopener noreferrer">Open SmartFridge ↗</a></p>
+      <div class="screenshots stacked" aria-label="Project screenshots">
+        <figure><a href="assets/smartfridge-inventory.jpg" data-gallery="fridge" data-caption="SmartFridge — inventory"><img src="assets/smartfridge-inventory.jpg" alt="Food inventory with quantities, owners and expiry dates" width="1080" height="2400" fetchpriority="high"></a><figcaption>Inventory</figcaption></figure>
+        <figure><a href="assets/smartfridge-add.jpg" data-gallery="fridge" data-caption="SmartFridge — adding a product"><img src="assets/smartfridge-add.jpg" alt="Form for adding a product or scanning its barcode" width="1080" height="2400" loading="lazy"></a><figcaption>Adding a product</figcaption></figure>
+        <figure><a href="assets/smartfridge-shopping.jpg" data-gallery="fridge" data-caption="SmartFridge — shopping list"><img src="assets/smartfridge-shopping.jpg" alt="Shared shopping list" width="1080" height="2400" loading="lazy"></a><figcaption>Shopping list</figcaption></figure>
+      </div>
+    </article>
+    <article class="ski" aria-labelledby="ski-title">
+      <div class="project-index">03 <span>University project</span></div><h2 id="ski-title">SkiLog</h2>
+      <p class="meta">GPS ski tracking <span>Android / Kotlin</span></p>
+      <div class="project-text"><div><h3>Context</h3><p>A day of skiing includes both downhill runs and time spent getting back up the mountain. SkiLog records the activity using GPS and separates those parts automatically.</p></div><div><h3>Implementation</h3><p>I developed the native Android app in Kotlin, including automatic classification of downhill and uphill or lift segments. A route map and per-segment statistics show distance, speed and time alongside an activity overview.</p></div></div>
+      <div class="screenshots stacked" aria-label="Project screenshots">
+        <figure><a href="assets/skilog-overview.jpg" data-gallery="ski" data-caption="SkiLog — activity overview"><img src="assets/skilog-overview.jpg" alt="Skiing activity overview and season statistics" width="1080" height="2400" loading="lazy"></a><figcaption>Activity overview</figcaption></figure>
+        <figure><a href="assets/skilog-detail.jpg" data-gallery="ski" data-caption="SkiLog — route and runs"><img src="assets/skilog-detail.jpg" alt="Recorded route and classified downhill and uphill segments" width="1080" height="2400" loading="lazy"></a><figcaption>Route and runs</figcaption></figure>
+      </div>
+    </article>
+  </main>
+  <footer><span>Lukáš Duka</span><span>Web applications &amp; software development</span></footer>
+  <dialog class="lightbox" aria-labelledby="image-caption">
+    <div class="lightbox-bar"><p id="image-caption"></p><button type="button" class="close" aria-label="Close screenshot">Close ×</button></div>
+    <div class="lightbox-content"><button class="previous" type="button" aria-label="Previous screenshot">←</button><div class="image-viewport"><img class="enlarged" alt=""></div><button class="next" type="button" aria-label="Next screenshot">→</button></div>
+    <p class="image-count" aria-live="polite"></p>
+  </dialog>
+</body>
+</html>
